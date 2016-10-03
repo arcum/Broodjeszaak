@@ -16,8 +16,7 @@ namespace Broodjeszaak
 {
     public partial class frmBroodjes : Form
     {
-        private string keuzebroodje;
-
+       
         public frmBroodjes()
         {
             InitializeComponent();
@@ -26,14 +25,7 @@ namespace Broodjeszaak
         private void Form1_Load(object sender, EventArgs e)
         {
             lblPrijs.Text = "";
-
-            /*Btn uit zetten - mogen enkel werken indien de eerste keuze is opgegeven*/
-            btnAjuin.Enabled = false;
-            btnMayo.Enabled = false;
-            btnKetchup.Enabled = false;
-            btnKlein.Enabled = false;
-            btnMiddel.Enabled = false;
-            btnGroot.Enabled = false;
+            DeActivateBtns();
         }
 
         private void ActivateBtns()
@@ -46,27 +38,15 @@ namespace Broodjeszaak
             btnGroot.Enabled = true;
         }
 
-        /*private void Clicking(object sender, EventArgs e)
+        private void DeActivateBtns()
         {
-            switch (((Button) sender).Text)
-            {
-                case "Martino":
-                    Broodjes rx = new Martino();
-                    keuzebroodje = "rx";
-                    break;
-                case "Smos":
-                    Broodjes rx = new Smos();
-                    keuzebroodje = "rx2";
-                    break;
-                case "Gebraden Kip":
-                    Broodjes rx3 = new GebradenKip();
-                    keuzebroodje = "rx3";
-                    break;
-
-            }
-
-            
-        }*/
+            btnAjuin.Enabled = false;
+            btnMayo.Enabled = false;
+            btnKetchup.Enabled = false;
+            btnKlein.Enabled = false;
+            btnMiddel.Enabled = false;
+            btnGroot.Enabled = false;
+        }
 
         private void Resettxt()
         {
@@ -75,12 +55,60 @@ namespace Broodjeszaak
             ActivateBtns();
         }
 
+        private void Clicking(object sender, EventArgs e)
+        {
+            switch (((Button) sender).Text)
+            {
+                case "Martino":
+                {
+                        Resettxt();
+                        Broodjes rx = new Martino();
+                        ActivateBtns();
+                        txtresult.Text += rx.GeefBeschrijving();
+                        lblPrijs.Text += rx.Kost();
+                }
+                    break;
+                case "Smos":
+                {
+                        Resettxt();
+                        Broodjes rx = new Smos();
+                        ActivateBtns();
+                        txtresult.Text += rx.GeefBeschrijving();
+                        lblPrijs.Text += rx.Kost();
+
+                    }
+                    break;
+                case "Gebraden Kip":
+                {
+                        Resettxt();
+                        Broodjes rx = new GebradenKip();
+                        ActivateBtns();
+                        txtresult.Text += rx.GeefBeschrijving();
+                        lblPrijs.Text += rx.Kost();
+                    }
+                    break;
+                case "Klein":
+                {
+                       rx.Klein();
+                       txtresult.Text = rx.GeefBeschrijving();
+                       lblPrijs.Text += rx.Kost().ToString();
+
+                }
+                    break;
+
+
+
+            }
+
+            
+        }
+
+       
         public void btnMartino_Click(object sender, EventArgs e)
         {
             Resettxt();
             Broodjes rx = new Martino();
-            txtresult.Text += rx.GeefBeschrijving();
-            lblPrijs.Text += rx.Kost();
+           
         }
 
         private void btnSmos_Click(object sender, EventArgs e)

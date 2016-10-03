@@ -50,7 +50,7 @@
             this.btnMartino.TabIndex = 0;
             this.btnMartino.Text = "Martino";
             this.btnMartino.UseVisualStyleBackColor = true;
-            this.btnMartino.Click += new System.EventHandler(this.btnMartino_Click);
+            this.btnMartino.Click += new System.EventHandler(this.Clicking);
             // 
             // btnGebradenKip
             // 
@@ -60,7 +60,7 @@
             this.btnGebradenKip.TabIndex = 1;
             this.btnGebradenKip.Text = "Gebraden Kip";
             this.btnGebradenKip.UseVisualStyleBackColor = true;
-            this.btnGebradenKip.Click += new System.EventHandler(this.btnGebradenKip_Click);
+            this.btnGebradenKip.Click += new System.EventHandler(this.Clicking);
             // 
             // btnSmos
             // 
@@ -70,7 +70,7 @@
             this.btnSmos.TabIndex = 2;
             this.btnSmos.Text = "Smos";
             this.btnSmos.UseVisualStyleBackColor = true;
-            this.btnSmos.Click += new System.EventHandler(this.NewClick);
+            this.btnSmos.Click += new System.EventHandler(this.Clicking);
             // 
             // btnKlein
             // 
@@ -80,6 +80,7 @@
             this.btnKlein.TabIndex = 3;
             this.btnKlein.Text = "Klein";
             this.btnKlein.UseVisualStyleBackColor = true;
+            this.btnKlein.Click += new System.EventHandler(this.Clicking);
             // 
             // btnGroot
             // 
@@ -89,7 +90,7 @@
             this.btnGroot.TabIndex = 4;
             this.btnGroot.Text = "Groot";
             this.btnGroot.UseVisualStyleBackColor = true;
-            this.btnGroot.Click += new System.EventHandler(this.btnGroot_Click);
+            this.btnGroot.Click += new System.EventHandler(this.Clicking);
             // 
             // btnMiddel
             // 
@@ -99,7 +100,7 @@
             this.btnMiddel.TabIndex = 5;
             this.btnMiddel.Text = "Middel";
             this.btnMiddel.UseVisualStyleBackColor = true;
-            this.btnMiddel.Click += new System.EventHandler(this.btnMiddel_Click);
+            this.btnMiddel.Click += new System.EventHandler(this.Clicking);
             // 
             // btnAjuin
             // 
@@ -109,6 +110,7 @@
             this.btnAjuin.TabIndex = 6;
             this.btnAjuin.Text = "Ajuin";
             this.btnAjuin.UseVisualStyleBackColor = true;
+            this.btnAjuin.Click += new System.EventHandler(this.Clicking);
             // 
             // btnMayo
             // 
@@ -118,6 +120,7 @@
             this.btnMayo.TabIndex = 7;
             this.btnMayo.Text = "Mayo";
             this.btnMayo.UseVisualStyleBackColor = true;
+            this.btnMayo.Click += new System.EventHandler(this.Clicking);
             // 
             // btnKetchup
             // 
@@ -127,6 +130,7 @@
             this.btnKetchup.TabIndex = 8;
             this.btnKetchup.Text = "Ketchup";
             this.btnKetchup.UseVisualStyleBackColor = true;
+            this.btnKetchup.Click += new System.EventHandler(this.Clicking);
             // 
             // txtresult
             // 
