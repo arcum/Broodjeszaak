@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Broodjeszaak.Broodjes" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Broodjes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.Martino">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteBroodjes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.Smos">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteBroodjes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.GebradenKip">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteBroodjes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.Klein">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteGrootte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.Middel">
+    <Position X="14" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteGrootte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.Groot">
+    <Position X="15.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteGrootte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.Ajuin">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteSurplus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.Mayo">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteSurplus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.Ketchup">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteSurplus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.Grootte">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grootte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.Program" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broodjeszaak.Surplus">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Surplus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
